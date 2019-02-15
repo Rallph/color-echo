@@ -1,0 +1,11 @@
+{
+  "name": "color-cli",
+  "version": "0.0.1",
+  "description": "A CLI tool that prints colorful output to the terminal",
+  "main": "index.js",
+  "author": "Ralph Nahra",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
