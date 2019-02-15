@@ -2,7 +2,7 @@
   "name": "color-cli",
   "version": "0.0.1",
   "description": "A CLI tool that prints colorful output to the terminal",
-  "main": "index.js",
+  "main": "colorcli.js",
   "author": "Ralph Nahra",
   "license": "MIT",
   "dependencies": {
