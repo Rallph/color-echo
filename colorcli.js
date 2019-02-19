@@ -2,21 +2,16 @@
 // Color-CLI utility
 // Made by Ralph Nahra
 const chalk = require('chalk');
-const fs = require('fs');
+const cli = require('cli');
 
-let config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
+cli.parse(
+    {
+        color: ['c', 'The keyword for the color to be applied to the provided text', 'string', 'orange']
+    }
+);
 
-const color = config.color || process.argv[3] || "blue";
-const text = process.argv[2] || "";
+let text = cli.args.join(' ');
+console.log(chalk.keyword(cli.options.color)(text));
 
-if (text == "setcolor") {
-    config.color = process.argv[3];
-    fs.writeFile('./config.json', JSON.stringify(config), err => {
-        if (err) throw err;
-        console.log(`Default color has been set to ${process.argv[3]}`);
-    });
-} else {
-
-    console.log(chalk.keyword(color)(text));
-}
-
+//TODO: Add support for setting a default color stored in a json file
+//TODO: Add support for setting color using rgb, hex, etc
