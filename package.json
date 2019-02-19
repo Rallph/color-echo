@@ -6,6 +6,7 @@
   "author": "Ralph Nahra",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "cli": "^1.0.1"
   }
 }
