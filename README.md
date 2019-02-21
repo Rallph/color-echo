@@ -32,9 +32,9 @@ prints "testing" in the color with hex code #322dbc (a cyan color). Note that th
 #
 ## Future plans
 
-Support rgb, hsl color modes
-Support using a default color defined in a file
-Support piping input from stdout
+* Support rgb, hsl color modes
+* Support using a default color defined in a file
+* Support piping input from stdout
 
 
 Made by Ralph Nahra
