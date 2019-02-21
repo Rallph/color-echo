@@ -22,6 +22,3 @@ if (cli.options.hex) {
 let text = cli.args.join(' ');
 console.log(applyColor(text));
 
-//TODO: Add support for setting a default color stored in a json file
-//TODO: Add RGB support
-//FIX: Try to make it so that hex color works regardless if # is present or not
