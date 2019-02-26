@@ -3,8 +3,13 @@
   "version": "0.0.1",
   "description": "A CLI tool that prints colorful output to the terminal",
   "main": "colorcli.js",
-  "author": "Ralph Nahra",
+  "author": "Ralph Nahra <ralph-nahra@uiowa.edu>",
   "license": "MIT",
+  "repository": "https://github.com/Rallph/color-cli",
+  "bugs": "https://github.com/Rallph/color-cli/issues",
+  "engines": {
+    "node": ">=11.9.0"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "cli": "^1.0.1"
