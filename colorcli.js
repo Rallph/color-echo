@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-// Color-CLI utility
+// Color-echo utility
 // Made by Ralph Nahra
 const chalk = require('chalk');
 const cli = require('cli');
